@@ -8,54 +8,74 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <body>
-    <div class="main_banner">
-      <div class="mainTitle">
-        <a href="#gallery-section">Michelle Rintjema</a>
+    <main>
+      <div class="main_banner">
+        <div class="mainTitle">
+          <h1>Michelle Rintjema</h1>
+        </div>
+        <nav>
+          <div id="side-menu" class="side_menu">
+            <div id="side-menu-burger" class="side_menu_burger">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span id="hide-side-menu-span" class="side_menu_span">menu</span>
+          </div>
+          <ul class='pop_out_menu' id='show-menu-on-click'>
+            <li id="gallery">gallery</li>
+            <li id="about">about</li>
+            <li id="contact">contact</li>
+          </ul>
+          <ul class='social_icons_nav'>
+            <li><a href="https://www.instagram.com/michellerintjema/"><img src="images/insta.png" alt="instagram logo"></a></li>
+            <li><a href="mailto:michelle.photo@gmail.com?subject=Hey! I'd love to see more photos"><img src="images/mail.png" alt="mail logo"></a></li>
+            <li><a href="https://www.pinterest.com/pin/create/button/?url=https://michellerintjema.github.io/Final-Project/" data-pin-do="buttonBookmark" data-auto-id="true" data-pin-custom="true" id="https-www-pinterest-com-pin-create-button-664-4"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
+          </ul>
+        </nav>
+        <div class="down_arrow_link"></div>
       </div>
-      <nav>
-        <div id="menu_burger" class="menu_burger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <span id="hide-menu-span" class="menu">menu</span>
-        <ul class='pop_out_menu' id='show-menu-on-click'>
-          <li><a href="#gallery-section">gallery</a></li>
-          <li><a href="#about-contact-section">about</a></li>
-          <li><a href="#about-contact-section">contact</a></li>
-        </ul>
-        <ul class='social_icons'>
-          <li><a href="https://www.instagram.com/michellerintjema/"><img src="images/insta.png" alt="instagram logo"></a></li>
-          <li><a href="mailto:michelle.rintjema@gmail.comsubject=I'd love to see more photos"><img src="images/mail.png" alt="mail logo"></a></li>
-          <li><a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-auto-id="true" data-pin-custom="true" id="https-www-pinterest-com-pin-create-button-664-4"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-        </ul>
-      </nav>
-    </div>
-    <div id="gallery-section" class="gallery_container">
-      <h1 class="gallery_title">galleries</h1>
-        <div class="gallery_tiles">
-          <div class="landscapes">
-            <p>landscapes</p>
-          </div>
-          <div class="architecture">
-            <p>architecture</p>
-          </div>
-          <div class="food">
-            <p>food</p>
+      <div id="gallery-section" class="gallery_container">
+        <div class="gallery_container_content">
+          <h1 class="gallery_title">galleries</h1>
+          <div id="gallery-tiles"class="gallery_tiles">
+            <a href="landscapes.html" class="landscapes" aria-label="landscapes"><span>landscapes</span></a>
+            <a href="architecture.html" class="architecture" aria-label="architecture"><span>architecture</span></a>
+            <a href="food.html" class="food" aria-label="food"><span>food</span></a>
           </div>
         </div>
-    </div>
-    <div id="about-contact-section" class="about_contact_containter">
-
-    </div>
+      </div>
+      <div id="about-contact-section" class="about_contact_containter">
+        <section class="about_me">
+          <div class="about_me_body_text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          </section>
+        <section class="contact">
+          <div class="self_portrait"></div>
+            <div class="contact_body_text">
+              <h1>Let's connect</h1>
+            <ul>
+              <li>follow me on <a href="https://www.instagram.com/michellerintjema/">Instagram</a></li>
+              <li>email: <a href="mailto:michelle.rintjema@gmail.com?subject=Hey! I'd love to see more photos">michelle.photo@gmail.com</a></li>
+              <li>phone: <span>555 875 4671</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    <main>
     <footer>
-      <ul class='social_icons'>
-        <li><a href="#"><img src="images/insta.png" alt="instagram logo"></a></li>
-        <li><a href="#"><img src="images/mail.png" alt="mail logo"></a></li>
-        <li><a href="#"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
+      <span class="copywrite">&copy 2018</span>
+      <h3>Michelle Rintjema Photography</h3>
+      <ul class='social_icons_footer'>
+        <li><a href="https://www.instagram.com/michellerintjema/"><img src="images/insta.png" alt="instagram logo"></a></li>
+        <li><a href="mailto:michelle.rintjema@gmail.comsubject=I'd love to see more photos"><img src="images/mail.png" alt="mail logo"></a></li>
+        <li><a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-auto-id="true" data-pin-custom="true" id="https-www-pinterest-com-pin-create-button-664-4"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
       </ul>
     </footer>
   </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
   <script src="main.js" charset="utf-8"></script>
 </html>
