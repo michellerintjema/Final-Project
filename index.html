@@ -4,57 +4,57 @@
     <meta charset="utf-8">
     <title>Michelle's Photo Website</title>
   </head>
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Barlow+Condensed|Open+Sans|PT+Serif" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <body>
     <main>
-      <div class="main_banner">
-        <div class="mainTitle">
-          <h1>Michelle Rintjema</h1>
+      <div class="mainBanner">
+        <div class="mainBanner_title">
+          <span>Michelle Rintjema</span>
         </div>
-        <nav>
-          <div id="side-menu" class="side_menu">
-            <div id="side-menu-burger" class="side_menu_burger">
+        <nav class="mainNav">
+          <div class="mainNav_sideMenu">
+            <div class="sideMenu_burger">
               <div></div>
               <div></div>
               <div></div>
             </div>
-            <span id="hide-side-menu-span" class="side_menu_span">menu</span>
+            <span class="sideMenu_menuSpan" id="hide-side-menu-span">menu</span>
           </div>
-          <ul class='pop_out_menu' id='show-menu-on-click'>
-            <li id="gallery">gallery</li>
-            <li id="about">about</li>
-            <li id="contact">contact</li>
+          <ul class='sideMenu_popOut' id='show-menu-on-click'>
+            <li id="sideMenu-popOut-galleries">galleries</li>
+            <li id="sideMenu-popOut-about">about</li>
+            <li id="sideMenu-popOut-contact">contact</li>
           </ul>
-          <ul class='social_icons_nav'>
+          <ul class='mainNav_socialIcons'>
             <li><a href="https://www.instagram.com/michellerintjema/"><img src="images/insta.png" alt="instagram logo"></a></li>
             <li><a href="mailto:michelle.photo@gmail.com?subject=Hey! I'd love to see more photos"><img src="images/mail.png" alt="mail logo"></a></li>
             <li><a href="https://www.pinterest.com/pin/create/button/?url=https://michellerintjema.github.io/Final-Project/" data-pin-do="buttonBookmark" data-auto-id="true" data-pin-custom="true" id="https-www-pinterest-com-pin-create-button-664-4"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
           </ul>
         </nav>
-        <div class="down_arrow_link"></div>
+        <div class="mainNav_downArrow"></div>
       </div>
-      <div id="gallery-section" class="gallery_container">
-        <div class="gallery_container_content">
-          <h1 class="gallery_title">galleries</h1>
-          <div id="gallery-tiles"class="gallery_tiles">
-            <a href="landscapes.html" class="landscapes" aria-label="landscapes"><span>landscapes</span></a>
-            <a href="architecture.html" class="architecture" aria-label="architecture"><span>architecture</span></a>
-            <a href="food.html" class="food" aria-label="food"><span>food</span></a>
+      <div id="galleries" class="galleries">
+        <div class="galleriesContent">
+          <h1 class="galleriesContent_title">galleries</h1>
+          <div id="galleries-tiles"class="galleriesContent_tiles">
+            <a href="landscapes.html" class="galleriesContent_tiles_landscapes" aria-label="landscapes"><span>landscapes</span></a>
+            <a href="architecture.html" class="galleriesContent_tiles_architecture" aria-label="architecture"><span>architecture</span></a>
+            <a href="food.html" class="galleriesContent_tiles_food" aria-label="food"><span>food</span></a>
           </div>
         </div>
       </div>
-      <div id="about-contact-section" class="about_contact_containter">
-        <section class="about_me">
-          <div class="about_me_body_text">
+      <div class="aboutContact" id="about-contact-section">
+        <section class="aboutContact_aboutMe">
+          <div class="aboutMe_body">
             <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Hey I’m Michelle, a traveling, eating, and hiking freelance photographer from Toronto. I enjoy long walks in the mountains, short walks to the beach and good view from anywhere! If you like my work check out my contact deets and shoot me a message. My content is always changing and always being added to. (especially in the food department. mmmmm) Stay adventurous friends!</p>
           </div>
           </section>
-        <section class="contact">
-          <div class="self_portrait"></div>
-            <div class="contact_body_text">
+        <section class="aboutContact_contactMe">
+          <div class="contactMe_image"></div>
+            <div class="contactMe_body">
               <h1>Let's connect</h1>
             <ul>
               <li>follow me on <a href="https://www.instagram.com/michellerintjema/">Instagram</a></li>
@@ -65,10 +65,10 @@
         </section>
       </div>
     <main>
-    <footer>
+    <footer id="footer">
       <span class="copywrite">&copy 2018</span>
       <h3>Michelle Rintjema Photography</h3>
-      <ul class='social_icons_footer'>
+      <ul class='footer_socialIcons'>
         <li><a href="https://www.instagram.com/michellerintjema/"><img src="images/insta.png" alt="instagram logo"></a></li>
         <li><a href="mailto:michelle.rintjema@gmail.comsubject=I'd love to see more photos"><img src="images/mail.png" alt="mail logo"></a></li>
         <li><a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-auto-id="true" data-pin-custom="true" id="https-www-pinterest-com-pin-create-button-664-4"><img src="images/pinterest.png" alt="pinterest logo"></a></li>
